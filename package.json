@@ -1,0 +1,29 @@
+{
+  "name": "project-1",
+  "version": "1.0.0",
+  "default": "script.js",
+  "scripts": {
+    "test": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pikachu5012/pikachu5012-html-css-js-van-1stproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pikachu5012/pikachu5012-html-css-js-van-1stproject/issues"
+  },
+  "homepage": "https://github.com/pikachu5012/pikachu5012-html-css-js-van-1stproject#readme",
+  "description": "",
+  "dependencies": {
+    "core-js": "3.41.0", 
+    "fractional": "1.0.0", 
+    "regenerator-runtime": "0.14.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "parcel": "^2.14.4"
+  }
+}
